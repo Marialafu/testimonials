@@ -19,6 +19,110 @@ nav ul {
   margin-bottom: 0;
 }
 body {
-  margin: 0;
+  margin:0;
   font-family: sans-serif;
+  background-color:#1A1A1A;
+  background-image: radial-gradient(circle at bottom, #7EF2FF40, #1A1A1A 50%);
+  font-family:"roboto";
+  color: aliceblue;
+  text-align: center;
+}
+.title{
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+  background-image: linear-gradient(to right, #6131F8, #C140A0, #FC8866);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitle{
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "poppins";
+  margin: 0;
+}
+.card-title{
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin: 0;
+}
+.card-subtitle{
+  font-size: 1rem;
+  margin: 0;
+}
+.card-text{
+  font-size: 1.125rem;
+  margin: 0;
+}
+.header-top{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.8125rem;
+}
+.button{
+ height: 2.75rem;
+ width: 7.5rem;
+ padding: 0.625rem 1rem;
+ border-radius: 0.5rem;
+}
+.button-primary{
+  background-color: #6A32EF;
+}
+.button-secondary{
+  border: 0.0625rem solid #6A32EF;
+}
+.card{
+  width: 21.375rem;
+  border-radius: 1rem;
+  background-color: rgb(33 33 33 / 75);
+  padding: 2rem 1rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.group-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.8125rem;
+}
+.header-info{
+  padding: 2.5rem 1rem;
+}
+.image{
+  border-radius: 100%;
+}
+@media screen and (width > 1440px){
+  body{
+    margin: 44px 150px 44px 150px;
+    background-image: radial-gradient(circle at right, #7EF2FF40, #1A1A1A 50%);
+  }
+  .group-card{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: start;
+    padding: 3.75rem 0;
+  }
+  .header-info{
+    padding: 0;
+  }
+  .title{
+    text-align: start;
+  }
+  .subtitle{
+    text-align: start;
+    width: 544px;
+  }
 }
