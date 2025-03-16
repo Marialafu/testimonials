@@ -99,16 +99,16 @@ body {
 .image{
   border-radius: 100%;
 }
-@media screen and (width > 1440px){
+@media screen and (min-width: 1440px){
   body{
-    margin: 44px 150px 44px 150px;
+    margin: 2.75rem 9.375rem 2.75rem 9.375rem;
     background-image: radial-gradient(circle at right, #7EF2FF40, #1A1A1A 50%);
   }
   .group-card{
     flex-direction: row;
     justify-content: space-between;
   }
-  header{
+  .header{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -123,6 +123,6 @@ body {
   }
   .subtitle{
     text-align: start;
-    width: 544px;
+    width: 34rem;
   }
 }
