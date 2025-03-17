@@ -26,6 +26,7 @@ body {
   font-family:"roboto";
   color: aliceblue;
   text-align: center;
+  min-height: 100vh;
 }
 .title{
   font-family: "poppins";
@@ -33,10 +34,10 @@ body {
   font-size: 3rem;
   margin: 0;
   background-image: linear-gradient(to right, #6131F8, #C140A0, #FC8866);
-  background-size: 100%;
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
+  width: fit-content;
+  margin-inline: auto;
 }
 .subtitle{
   font-weight: 400;
@@ -101,7 +102,7 @@ body {
 }
 @media screen and (min-width: 1440px){
   body{
-    margin: 2.75rem 9.375rem 2.75rem 9.375rem;
+    padding: 2.75rem 9.375rem 2.75rem 9.375rem;
     background-image: radial-gradient(circle at right, #7EF2FF40, #1A1A1A 50%);
   }
   .group-card{
